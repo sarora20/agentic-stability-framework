@@ -52,8 +52,8 @@ AFI and EGI each score seven dimensions (0–5). EGI scores are **evidence-tiere
 
 | File | What it is |
 |---|---|
-| `ASF_Whitepaper_v1_0.pdf` | The full specification and whitepaper |
-| `ASF_Assessment_Workbook_v1_0.xlsx` | The working assessment tool — score an agent end to end |
+| `ASF_Whitepaper_v1_0_Initial_Public_Release.pdf` | The full specification and whitepaper |
+| `ASF_Assessment_Workbook_v1_0_Initial_Public_Release.xlsx` | The working assessment tool — score an agent end to end |
 | `LICENSE` | Creative Commons Attribution 4.0 International |
 
 ---
