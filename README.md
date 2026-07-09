@@ -2,11 +2,11 @@
 
 **A force-based enterprise architecture framework for governing autonomous AI systems.**
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21281297-blue)](https://doi.org/10.5281/zenodo.21281297)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 ![Version](https://img.shields.io/badge/version-v1.0-informational)
 
-> Replace `zenodo.XXXXXXX` above with your Zenodo **concept DOI** once published, and update the repo links marked `<repo-url>` below.
+> Repo links below point to https://github.com/sarora20/agentic-stability-framework
 
 ---
 
@@ -107,7 +107,7 @@ The framework improves through use. If you apply it and something breaks, is unc
 
 ## Contributing and feedback
 
-Open an [issue](https://github.com/<repo-url>/issues) to report where the framework is unclear, where a rubric anchor is wrong, or where a domain overlay is missing. Real-world assessments — including anonymized ones that land in surprising orbits — are especially useful for calibrating thresholds in future versions.
+Open an [issue](https://github.com/sarora20/agentic-stability-framework/issues) to report where the framework is unclear, where a rubric anchor is wrong, or where a domain overlay is missing. Real-world assessments — including anonymized ones that land in surprising orbits — are especially useful for calibrating thresholds in future versions.
 
 ---
 
@@ -115,7 +115,7 @@ Open an [issue](https://github.com/<repo-url>/issues) to report where the framew
 
 If you use or reference ASF, please cite it:
 
-> Arora, Sumir. *Agentic Stability Framework: A Force-Based Enterprise Architecture Framework for Autonomous AI Systems.* v1.0 Initial Public Release, 2026. https://doi.org/10.5281/zenodo.XXXXXXX
+> Arora, Sumir. *Agentic Stability Framework: A Force-Based Enterprise Architecture Framework for Autonomous AI Systems.* v1.0 Initial Public Release, 2026. https://doi.org/10.5281/zenodo.21281297
 
 ```bibtex
 @techreport{arora2026asf,
@@ -125,8 +125,8 @@ If you use or reference ASF, please cite it:
   year    = {2026},
   version = {v1.0},
   note    = {Initial Public Release},
-  doi     = {10.5281/zenodo.XXXXXXX},
-  url     = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi     = {10.5281/zenodo.21281297},
+  url     = {https://doi.org/10.5281/zenodo.21281297}
 }
 ```
 
