@@ -4,7 +4,7 @@
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21281297-blue)](https://doi.org/10.5281/zenodo.21281297)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
-![Version](https://img.shields.io/badge/version-v1.0-informational)
+![Version](https://img.shields.io/badge/version-v1.1-informational)
 
 > Repo links below point to https://github.com/sarora20/agentic-stability-framework
 
@@ -52,15 +52,17 @@ AFI and EGI each score seven dimensions (0–5). EGI scores are **evidence-tiere
 
 | File | What it is |
 |---|---|
-| `ASF_Whitepaper_v1_0_Initial_Public_Release.pdf` | The full specification and whitepaper |
-| `ASF_Assessment_Workbook_v1_0_Initial_Public_Release.xlsx` | The working assessment tool — score an agent end to end |
+| `ASF_Whitepaper_v1_1.pdf` | The full specification and whitepaper |
+| `ASF_Assessment_Workbook_v1_1.xlsx` | The working assessment tool — score an agent end to end |
+| `ASF_Evidence_Collection_Instrument_v1_1.xlsx` | Maps each of the 14 dimensions to the artifact that evidences it |
+| `RELEASE_NOTES_v1_1.md` | What changed from v1.0, and what was deliberately deferred |
 | `LICENSE` | Creative Commons Attribution 4.0 International |
 
 ---
 
 ## Quick start
 
-1. **Download the workbook** (`ASF_Assessment_Workbook_v1_0.xlsx`) and open it.
+1. **Download the workbook** (`ASF_Assessment_Workbook_v1_1.xlsx`) and open it.
 2. **Pick one agent** in one business context. ASF scores an agentic system instance, not your whole enterprise.
 3. **Fill the ABOM** (Agent Bill of Materials) tab — model, tools, MCP servers, data, identity, permissions, action authority. This defines the assessment boundary.
 4. **Score AFI and EGI** using the rubric tabs. For EGI, record the evidence tier behind each score.
@@ -95,11 +97,13 @@ CIOs, CISOs, CTOs, enterprise architects, platform teams, and AI governance boar
 
 ## Status and limitations
 
-This is **v1.0**, released openly for practitioner adoption and field feedback. It is a decision-support framework, not a validated measurement instrument. Known limits, stated plainly:
+This is **v1.1**, released openly for practitioner adoption and field feedback. It retains the v1.0 core model and adds non-compensatory rules plus assessment-boundary clarifications; see `RELEASE_NOTES_v1_1.md`. It is a decision-support framework, not a validated measurement instrument. Known limits, stated plainly:
 
 - **Scoring is judgment-based.** Two qualified assessors can score the same agent differently. Calibration sessions and evidence-tier requirements reduce, but do not eliminate, variance.
 - **Orbit thresholds are heuristic** starting points, not empirically derived safety boundaries. Calibrate them against your own incident history and risk appetite.
 - **A positive SMI indicates proportional governance under the model — not guaranteed safe behavior.** Use ASF alongside threat modeling, security testing, runtime monitoring, and regulatory review.
+- **Inter-rater reliability is unmeasured.** One rubric point is roughly 2.86 SMI points while orbit bands are 25–29 points wide, so modest disagreement between assessors can move a classification. A multi-assessor study is planned.
+- **Non-compensatory thresholds are reference values** informed by analysis of the scoring model, not by incident data.
 
 The framework improves through use. If you apply it and something breaks, is unclear, or is wrong, that feedback is the point.
 
@@ -115,7 +119,7 @@ Open an [issue](https://github.com/sarora20/agentic-stability-framework/issues) 
 
 If you use or reference ASF, please cite it:
 
-> Arora, Sumir. *Agentic Stability Framework: A Force-Based Enterprise Architecture Framework for Autonomous AI Systems.* v1.0 Initial Public Release, 2026. https://doi.org/10.5281/zenodo.21281297
+> Arora, Sumir. *Agentic Stability Framework: A Force-Based Enterprise Architecture Framework for Autonomous AI Systems.* v1.1, 2026. https://doi.org/10.5281/zenodo.21281297
 
 ```bibtex
 @techreport{arora2026asf,
@@ -123,8 +127,7 @@ If you use or reference ASF, please cite it:
   title   = {Agentic Stability Framework: A Force-Based Enterprise
              Architecture Framework for Autonomous AI Systems},
   year    = {2026},
-  version = {v1.0},
-  note    = {Initial Public Release},
+  version = {v1.1},
   doi     = {10.5281/zenodo.21281297},
   url     = {https://doi.org/10.5281/zenodo.21281297}
 }
